@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js"></script>
     <title>Count up By</title>
 </head>
 <body>
 
-    <form>
+    <form id="count-form">
 
         <label for="countby">Please enter a number to count by:</label>
         <input id="countby">
@@ -16,13 +18,17 @@
         <br>
 
         <label for="countto">Please enter a number to count to:</label>
-        <input id="counto">
+        <input id="countto">
 
         <br>
 
-        <button type="submit">Submit</button> 
+        <button id="submit" type="submit">Submit</button> 
 
     </form>
+
+    <h2 id="display-countby"></h2>
+    <h2 id="display-countto"></h2>
+    <h2 id="display-arr"></h2>
 
     
 </body>
